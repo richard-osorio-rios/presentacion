@@ -6,101 +6,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Richard Osorio</title>
-    <link rel="icon" type="image/x-icon" href="./icons8-globo-48.png"/> 
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico"/> 
     <link rel="stylesheet" href="./css/index.css" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://richard-osorio-rios.github.io/presentacion/">
+    <meta property="og:title" content="Richard Frank Osorio Rios">
+    <meta property="og:description" content="Desarrollo de pagina web a medida , integraciones. en C# .NET SAP">
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://richard-osorio-rios.github.io/presentacion/">
+    <meta property="twitter:title" content="Richard Frank Osorio Rios">
+    <meta property="twitter:description" content="Desarrollo de pagina web a medida , integraciones. en C# .NET SAP">
+    <meta property="twitter:image" content="">
 </head>
 <body class="body">
     <header class="header">
         <nav class="header-nav">
-            <div class="header-nav__container">
+            <div class="header-container">
                 <a href="#iHero" class="header-nav__link-logo-container">
-                    <img src="./assets/img/Logo-Web.webp" alt="Logo Web" width="108" height="50" class="header-nav__link-logo"/>
+                    <img src="./assets/img/Logo-Web.webp" alt="logo oblitas" class="header-nav__link-logo">
                 </a>
-                <ul>
-                    <li>
-                        <a href="">Experiencia</a>
-                    </li>
-                    <li>
-                        <a href="">Contacto</a>
-                    </li>
-                    <li>
-                        <a href="">Richard</a>
-                    </li>
+                <ul class="header-nav__menu-list-container">
+                    <li><a href="#iExperiencia" class="header-nav__menu-link">Experiencia</a></li>
+                    <li><a href="#iContact" class="header-nav__menu-link">Contacto</a></li>
+                    <li><a href="https://www.linkedin.com/in/richard-frank-osorio-rios/" class="header-nav__menu-link header-nav__menu-link--active" target="_blank" rel="noopener noreferrer">Richard</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
         <article class="i-hero" id="iHero">
-            <div>
-                <div>
-                    <h1>Richard Frank Osorio Rios</h1>
-                    <h2>Desarrollador de sistemas en .net c# con experiencia en proyectos de implementacion de sap bo</h2>
-                    <p>
+            <div class="i-hero__container">
+                <div class="i-hero__info-container">
+                    <h1 class="i-hero__info-title">Richard Frank Osorio Rios</h1>
+                    <h2 class="i-hero__info-subtitle">Desarrollador de sistemas en .net c# con experiencia en proyectos de implementacion de sap bo</h2>
+                    <p class="i-hero__info-paragraph">
                         Profesional con compromiso en metas establecidas y con ganas se seguir aprendiendo
                     </p>
                     <a href="https://www.linkedin.com/in/richard-frank-osorio-rios/" class="i-hero__info-link">!Aprende gratis!</a>
                 </div>
-                <div>
-                    <div>
-                        <img src="./assets/img/Richard-Osorio.webp" alt="Richard Osorio" width="256" height="256"/>
-                        <figure>
-                            <img src="./assets/svg/logo-html-5.svg" alt="HTML" width="64" height="64" class="i-hero__img-tech"/>
-                            <img src="./assets/svg/logo-css-3.svg" alt="CSS" width="64" height="64" class="i-hero__img-tech"/>
-                            <img src="./assets/svg/logo-javascript.svg" alt="JAVASCRIPT" width="64" height="64" class="i-hero__img-tech"/>
-                            <img src="./assets/svg/logo-react.svg" alt="REACT" width="64" height="64" class="i-hero__img-tech"/>
+                <div class="i-hero__img-container">
+                    <div class="i-hero__img-pro-tech-container">
+                        <img src="./assets/img/Richard-Osorio.webp" alt="Richard Osorio" width="256" height="256" class="i-hero__img-pro"/>
+                        <figure class="i-hero__img-tech-container">
+                            <img src="./assets/svg/logo-html-5.svg" alt="HTML" width="64" height="64" class="i-hero__img-tech" class="i-hero__img-tech"/>
+                            <img src="./assets/svg/logo-css-3.svg" alt="CSS" width="64" height="64" class="i-hero__img-tech" class="i-hero__img-tech"/>
+                            <img src="./assets/svg/logo-javascript.svg" alt="JAVASCRIPT" width="64" height="64" class="i-hero__img-tech" class="i-hero__img-tech"/>
+                            <img src="./assets/svg/logo-react.svg" alt="REACT" width="64" height="64" class="i-hero__img-tech" class="i-hero__img-tech"/>
                         </figure>
                     </div>    
                 </div>
             </div>
         </article>
-        <section>
+        <section id="iExperiencia">
             <div>
                 <h2>Experiencia</h2>
-                <table border="1">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Empresa</th>
-                                <th>Cargo</th>
-                                <th>Funciones</th>
-                                <th>Periodo</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Cineplanet</td>
-                                <td>Frontend Developer</td>
-                                <td>Desarrollo de aplicaciones web enfocadas en el Cineplanet</td>
-                                <td>2022</td>
-                            </tr>
-                            <tr>
-                                <td>Cineplanet</td>
-                                <td>Frontend Developer</td>
-                                <td>Desarrollo de aplicaciones web enfocadas en el Cineplanet</td>
-                                <td>2022</td>
-                            </tr>
-                            <tr>
-                                <td>Cineplanet</td>
-                                <td>Frontend Developer</td>
-                                <td>Desarrollo de aplicaciones web enfocadas en el Cineplanet</td>
-                                <td>2022</td>
-                            </tr>
-                            <tr>
-                                <td>Cineplanet</td>
-                                <td>Frontend Developer</td>
-                                <td>Desarrollo de aplicaciones web enfocadas en el Cineplanet</td>
-                                <td>2022</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr><td colspan="4"><a href="https://www.linkedin.com/in/richard-frank-osorio-rios/">Ver más Experiencia</a></td></tr>
-                        </tfoot>
-                    </table>
+                <table class="tabla">
+                    <thead>
+                        <tr>
+                            <th>Empresa</th>
+                            <th>Cargo</th>
+                            <th>Funciones</th>
+                            <th>Periodo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>TRANSTOTAL AGENCIA MARITINA S.A</td>
+                            <td>Analista Programador</td>
+                            <td>Integración con SAP BO de aplicación web de negocio logistico fullpak</td>
+                            <td>2021-2022</td>
+                        </tr>
+                        <tr>
+                            <td>DINET S.A</td>
+                            <td>Analista Programador</td>
+                            <td>Desarrollo de funcionalidades para sistema web desarrolando en .Net C#</td>
+                            <td>2021</td>
+                        </tr>
+                        <tr>
+                            <td>TECNOFIL S.A</td>
+                            <td>Analista Programador</td>
+                            <td>Desarrollo de RPA, actualización de módulo de impresión de etiquetas, reportes personalizados para erp corporativo</td>
+                            <td>2020-2021</td>
+                        </tr>
+                        <tr>
+                            <td>GRUPO TLI</td>
+                            <td>Analista Programador</td>
+                            <td>Desarrollo de pagina web de analisis comercial para ejecutivos de venta, desarrollo de pagina web de almacenes.</td>
+                            <td>2019-2020</td>
+                        </tr>
+                        <tr>
+                            <td>LABORATORIO CLINICO ROE</td>
+                            <td>Analista Programador</td>
+                            <td>Desarrollo de sistemas personalizados, implementacion en proyecto de sap bo, facturación electrónica.</td>
+                            <td>2013-2019</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr><td colspan="4"><a href="https://www.linkedin.com/in/richard-frank-osorio-rios/">Ver más Experiencia</a></td></tr>
+                    </tfoot>
                 </table>
             </div>
         </section>
-        <section>
+        <section  id="iContact">
             <div>
                 <h2>Contacto</h2>
                 <form>
@@ -126,7 +138,7 @@
                         </a>
                     </li>
                     <li style="display:inline-block">
-                        <a href="https://www.linkedin.com/" >
+                        <a href="https://www.linkedin.com/in/richard-frank-osorio-rios/" >
                             <img src="./assets/svg/linkedin-svgrepo-com.svg" alt="Logo linkedin" width="32" height="32"></img>
                         </a>
                     </li>
