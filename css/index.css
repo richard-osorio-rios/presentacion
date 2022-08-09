@@ -248,7 +248,7 @@ a {
   .i-hero__container {
     max-width: 1024px;
     margin: 0 auto;
-    padding: 075rem;
+    padding: 0.25rem;
   }
 
   .i-hero__info-title {
@@ -269,4 +269,5 @@ a {
 
 .tabla, th, td {
     border: 1px solid;
+    overflow: scroll;
   }
